@@ -21,7 +21,7 @@ const runEvenGame = () => {
     const Answer = readlineSync.question('Your answer: ')
     if(Answer !== correction){
         console.log(`'${Answer}' is wrong answer ;(. Correct answer was '${correction}'`)
-        console.log(`lets try again, ${name}!`)
+        console.log(`Let's try again, ${name}!`)
         return 0
     }
     else{
