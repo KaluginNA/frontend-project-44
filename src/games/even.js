@@ -27,10 +27,12 @@ const runEvenGame = () => {
     else{
         console.log('Correct!')
     }
-    console.log(`Congratulations, ${name}!`)
+    
+    
 
 
   }
+  console.log(`Congratulations, ${name}!`)
 }
 export default runEvenGame
 
