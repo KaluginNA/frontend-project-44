@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync'
+import { greetUser } from './cli.js'
 
 const congrats = (name) => {
   console.log(`Congratulations, ${name}!`)
