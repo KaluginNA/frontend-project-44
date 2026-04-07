@@ -10,7 +10,7 @@ const gameover = (name, ans, cor) => {
 export const random = range => Math.floor(Math.random() * range)
 
 export default (desc, game) => {
-  const name = greeting()
+  const name = greetUser()
   console.log(desc)
   for (let i = 0; i < 3; i++) {
     const [question, correctAnswer] = game()
